@@ -28,6 +28,9 @@ else
 	sudo apt-get install python-imaging --assume-yes
 fi
 
+cd ..
+sudo python3 modifyIP.py
+
 #run GUI in virtual environment
 cd $guipath
 python GUI.py
